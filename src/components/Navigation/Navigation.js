@@ -1,9 +1,9 @@
 import React from 'react';
 import { Menu, Switch, Radio } from 'antd';
-import { BulbOutlined, ApiOutlined } from '@ant-design/icons';
+// import { BulbOutlined, ApiOutlined } from '@ant-design/icons';
 import { useDispatch, useSelector } from 'react-redux';
 import { setTab, setUnit } from '../../store/actions/mainActions';
-import { toggleDarkMode } from '../../store/actions/mainActions';
+// import { toggleDarkMode } from '../../store/actions/mainActions';
 import SearchField from '../WeatherPanel/SearchField/SearchField';
 
 const Navigation = (props) => {
