@@ -32,7 +32,7 @@ export const currentWeather = (location, unit = 'metric') => {
 const getCoordinates = (location) => {
 	if (!location) return;
 
-	const queryUrl = `https://www.mapquestapi.com/geocoding/v1/address?key=${GEOLOCATION_API_KEY}&location=${location}`;
+	const queryUrl = `http://www.mapquestapi.com/geocoding/v1/address?key=${GEOLOCATION_API_KEY}&location=${location}`;
 
 	return axios
 		.get(queryUrl)
